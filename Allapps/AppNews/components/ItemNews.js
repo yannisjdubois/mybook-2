@@ -23,21 +23,18 @@ const ItemNews = ({item}) => {
 
         <View style={styles.viewImg}>
 
-               <Image style={styles.image} source={{uri:item.urlToImage}}/> 
+               <Image
+               style={styles.image}
+               source={{uri:item.urlToImage}}
+               /> 
 
         </View>
 
         <View style={styles.viewText}>
             
             <Text>{item.title}</Text>
-
-            <Button
-              title='Voir Plus'
-              onPress={() => navigation.navigate('DetailNews',{
-                item : item
-                
-              })}
-            />
+            <Text></Text>
+            <Text style={styles.viewTxtDescription}>{item.description}</Text>
         
         </View>
       
