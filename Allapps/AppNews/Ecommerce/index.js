@@ -12,7 +12,7 @@ const Index = () => {
         {!login?
         <Connexion/>:
         <Private/>
-    }
+        }
 
 
     </View>
