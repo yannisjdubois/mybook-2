@@ -9,9 +9,11 @@ const Index = () => {
 
   return (
     <View>
-      <Text>Ecommerce</Text>
-      <Connexion/>
-      <Private/>
+        {!login?
+        <Connexion/>:
+        <Private/>
+    }
+
 
     </View>
   )
