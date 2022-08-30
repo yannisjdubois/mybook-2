@@ -2,11 +2,15 @@ import { StyleSheet, Text, View, Button } from 'react-native'
 import React from 'react'
 
 const Login = () => {
+  const pressConnexion = () => {
+    console.log("connexion")
+  }
+
   return (
     <View>
       <Text>Login</Text>
       <Button
-      onPress={connexion}
+      onPress={pressConnexion}
       title='Connexion'
       />
     </View>

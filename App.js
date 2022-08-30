@@ -37,7 +37,7 @@ const App = () => {
 
                   <Stack.Screen name="AppTuto" component={Tuto} />
 
-                  {/* Ecommerce */}
+                  {/* Ecommerce app Screen */}
                   <Stack.Screen name="AppEcommerce" component={Ecommerce} />
                 
               </Stack.Navigator>
