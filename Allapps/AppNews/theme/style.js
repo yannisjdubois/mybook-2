@@ -25,10 +25,10 @@ export const styles = StyleSheet.create({
 
     viewText :{
            
-        height:100,
+        height:40,
         width:190,
-        justifyContent:'center',
-        alignItems:'center'
+        // justifyContent:'center',
+        // alignItems:'center'
         
     },
     image:{
